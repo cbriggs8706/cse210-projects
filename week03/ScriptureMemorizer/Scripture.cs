@@ -33,7 +33,6 @@ public class Scripture
             visibleWords[index].Hide();
         }
 
-        // Occasionally hide part of the reference
         if (!_reference.IsFullyHidden() && _random.NextDouble() < 0.5)
         {
             _reference.HideRandomPart();

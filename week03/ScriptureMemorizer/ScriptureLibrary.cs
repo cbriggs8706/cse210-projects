@@ -24,7 +24,7 @@ public class ScriptureLibrary
         _scriptures.Add(new Scripture(new ScriptureReference("2 Nephi", 2, 25),
             "Adam fell that men might be; and men are, that they might have joy."));
 
-        // Add more scriptures here as needed
+        //TODO Add more scriptures here eventually
     }
 
     public Scripture GetRandomScripture()

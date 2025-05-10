@@ -27,7 +27,7 @@ public class ScriptureReference
 
     public void HideRandomPart()
     {
-        int choice = _random.Next(3); // 0 = book, 1 = chapter, 2 = verses
+        int choice = _random.Next(3);
 
         switch (choice)
         {
